@@ -1,0 +1,23 @@
+{
+  "name": "aws-credentials-broker",
+  "version": "0.0.1",
+  "description": "AWS Credentials Broker - Grants temporary AWS credentials for Google federated users",
+  "author": "Flow",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowcommerce/aws-credentials-broker.git"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "build": "npx parcel build index.html --dist-dir templates --public-url ./dist/"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
